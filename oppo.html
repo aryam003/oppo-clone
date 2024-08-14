@@ -9,21 +9,22 @@
     <style>
         .sub1 img{
             width: 100%;
-            height: 700px;
-            padding: 10px;
+            height: 600px;
+            padding: 5px;
         }
-        ul {
+        /* ul {
             position: -webkit-sticky;
             position: sticky;
+            position: fixed;
             list-style-type: none;
             margin: 0;
             padding: 0;
             overflow: hidden;
             background-color: whitesmoke;
             top: 0;
-        }
+        } */
 
-        li {
+        /* li {
             float: left;
         }
 
@@ -43,17 +44,23 @@
         }
         .srh{
             padding: 20px;
-        }
-        .sub1{
+        } */
+        .sub1,.sub2,.sub3{
             position: absolute;
             font-family: Arial, Helvetica, sans-serif;
         }
-        .sub1a{
+        .sub1a,.sub2a,.sub3a{
             position: absolute;
             left: 100px;
             top: 60px;
             color: black;
             text-align: center;
+        }
+        .sub2a{
+            color: rgb(226, 230, 234);
+        }
+        .sub3a{
+            color: black;
         }
         .sub1a h6{
             background-color: rgb(34, 34, 34);
@@ -61,28 +68,33 @@
             width: 100px;
             font-size: 10px;
          }
-         .sub1a h1{
+         .sub1a h1,.sub2a h1,.sub3a h1{
             font-size: 70px;
          }
-         .sub1a a{
+         .sub1a a,.sub2a a,.sub3a a{
             left: 10px;
             top: 310px;
             padding: 10px;
             text-decoration: none;
             background-color: rgb(189, 190, 192);
-            color: rgb(100, 100, 100);
+            color: rgb(53, 53, 53);
             border-radius: 30px;       
         }
-        .sub1b {
-            top: 300px;
-            left: 40px;
+        .sub1b,.sub2b,.sub3b {
+            top: 200px;
+            left: 30px;
             position: relative;
+            padding: 5px;
+        }
+        .sub2 img{
+            width: 100%;
+            height: 600px;
             padding: 5px;
         }
     </style>
 </head>
 <body>
-        <ul>
+        <!-- <ul>
             <li><h1>OPPO</h1></li>
             <li><a href="" target="_blank">Smartphone</a></li>
             <li><a href="" target="_blank">Tablets</a></li>
@@ -96,9 +108,9 @@
             <div class="srh">
             <input type="text" placeholder="Search.." name="search">           
             </div>
-        </ul>
+        </ul> -->
     <div class="sub1">
-        <img src="reno12-2624x920.jpeg.thumb.webp" alt="">
+        <img src="image/reno12-2624x920.jpeg.thumb.webp" alt="">
         <div class="sub1a">
             <h6>OPPO AI Phone</h6>
             <h1>OPPO Reno12 Pro</h1>
@@ -109,6 +121,33 @@
             <a href="" target="_blank">Buy now</a>
             </div>
         </div>
+        <div class="sub2">
+            <img src="image/img2.jpg" alt="" height="100px">
+            <div class="sub2a">
+                <h1>OPPO K12x 5G</h1>
+                <h4>Toughest 5G Phone in the Segment</h4>
+            <div class="sub2b">    
+                <p>7.68mm Ultra-Slim Premium Gleaming Design <br>
+                    360 Degree Damage-proof Armour Body <br>
+                    45W SUPERVOOCTM Flash Charge</p>
+                    <a href="" target="_blank">Learn More</a>                   
+                    <a href="" target="_blank">Buy now</a>   
+             </div>   
+            </div>
+        <div class="sub3">
+            <img src="image/img3.jpg" alt="" height="100px">
+            <div class="sub3a">
+                <h1>OPPO F27 Pro+</h1>
+                <h4>India's First Waterproof Smartphone Rated IP69</h4>
+            <div class="sub3b">    
+                    <p>Damage-Proof 360° Armour Body <br>
+                    Ultra-Tough 3D Curved AMOLED Screen></p>
+                    <a href="" target="_blank">Learn More</a>                   
+                    <a href="" target="_blank">Buy now</a>   
+             </div>   
+            </div>
+        </div>
+     </div>
     </div>
 </body>
 </html>
